@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+require_relative "releases"
 
 module SaxonC
   module Libs
