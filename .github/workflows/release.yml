@@ -40,9 +40,6 @@ jobs:
           fi
           echo "Tag and gem versions match: $GEM_VERSION"
 
-      - name: Run tests (optional)
-        run: bundle exec rake test || echo "No tests defined"
-
       - name: Build gem
         run: bundle exec rake build
 

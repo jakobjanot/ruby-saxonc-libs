@@ -15,7 +15,7 @@ module SaxonC
 
       def archive_for(platform_key)
         data = releases_data
-        data_for_edition = data.dig("editions", saxon_edition.to_s) do
+        data_for_edition = data.fetch(saxon_edition) do
           raise KeyError, "No release defined for Saxon edition #{saxon_edition} in #{release_path}"
         end
         data_for_edition.fetch(platform_key) do
