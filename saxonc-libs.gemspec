@@ -5,12 +5,12 @@ require_relative "lib/saxonc/libs/version"
 Gem::Specification.new do |spec|
   spec.name          = "saxonc-libs"
   spec.version       = SaxonC::Libs::VERSION
-  spec.authors       = ["SaxonC Ruby Contributors"]
-  spec.email         = ["oss@example.com"]
+  spec.authors       = ["Jakob Kofoed Janot"]
+  spec.email         = ["jakob@janot.dk"]
 
   spec.summary       = "Platform-specific SaxonC binaries for Ruby projects"
   spec.description   = "Downloads and installs the official SaxonC runtime files so other Ruby gems can link against them."
-  spec.homepage      = "https://github.com/jakobjanot/ruby-saxonc"
+  spec.homepage      = "https://github.com/jakobjanot/ruby-saxonc-libs"
   spec.license       = "MIT"
 
   spec.metadata["homepage_uri"] = spec.homepage
