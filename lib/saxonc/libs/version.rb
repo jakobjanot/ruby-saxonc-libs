@@ -1,9 +1,7 @@
 # frozen_string_literal: true
-require_relative "releases"
-
 module SaxonC
   module Libs
-    PATCH = "0"
-    VERSION = "#{Releases.new.version}.#{PATCH}"
+    VERSION = "19.2.0"
+    SAXON_VERSION = VERSION.split(".")[0..1].join(".")
   end
 end

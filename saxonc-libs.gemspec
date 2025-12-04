@@ -1,6 +1,5 @@
 # frozen_string_literal: true
-
-require_relative "lib/saxonc/libs/releases"
+# 
 require_relative "lib/saxonc/libs/version"
 
 Gem::Specification.new do |spec|
