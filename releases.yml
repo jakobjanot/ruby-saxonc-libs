@@ -1,0 +1,42 @@
+---
+version: 12.9
+editions:
+  he:
+    macos-arm64:
+      url: https://downloads.saxonica.com/SaxonC/HE/12/SaxonCHE-macos-arm64-12-9-0.zip
+      sha256: 4b169c9a538fa9b2f81e1c55462c59a0e13e49c65317601554da64f6332b9498
+    macos-x86_64:
+      url: https://downloads.saxonica.com/SaxonC/HE/12/SaxonCHE-macos-x86_64-12-9-0.zip
+      sha256: 3b16847c6c371d72d8a0d019095fb5b9c95ab6e12fc57e02e7b46369b4b80e7c
+    linux-x86_64:
+      url: https://downloads.saxonica.com/SaxonC/HE/12/SaxonCHE-linux-x86_64-12-9-0.zip
+      sha256: b3ec20bea9464c27dce534aeac99cf6c134dcf8cd8a020f353ca6727d6bca18f
+    windows-x86_64:
+      url: https://downloads.saxonica.com/SaxonC/HE/12/SaxonCHE-windows-x86_64-12-9-0.zip
+      sha256: d038934cfbc52ab87d90551f86d04e14933b0b63249c41d7c7fe5a3bb5c34fc8
+  pe:
+    macos-arm64:
+      url: https://downloads.saxonica.com/SaxonC/PE/12/SaxonCPE-macos-arm64-12-9-0.zip
+      sha256: 650af2c0a44e29edea8e2290415d1dd2769b0c0c3d8512908c8dc280f97cd145
+    macos-x86_64:
+      url: https://downloads.saxonica.com/SaxonC/PE/12/SaxonCPE-macos-x86_64-12-9-0.zip
+      sha256: '04945b9b70cc4a72185de1dc2ba17ea30e4a00f77d9e8af2951cedbfd6f33a3d'
+    linux-x86_64:
+      url: https://downloads.saxonica.com/SaxonC/PE/12/SaxonCPE-linux-x86_64-12-9-0.zip
+      sha256: a373cc4b7c572a1d090ec1fce96eae3d26822c8d1e80e03824c58fed396181e2
+    windows-x86_64:
+      url: https://downloads.saxonica.com/SaxonC/PE/12/SaxonCPE-windows-x86_64-12-9-0.zip
+      sha256: 9611c9811f2bb79d6a5aecc5ed3d4e0015c3fdb8ce9d037f75d18b010cc2f84e
+  ee:
+    macos-arm64:
+      url: https://downloads.saxonica.com/SaxonC/EE/12/SaxonCEE-macos-arm64-12-9-0.zip
+      sha256: 756227a997022bbee311ecd30e82b408c40d357dc5028045285a38f61c6eb2e5
+    macos-x86_64:
+      url: https://downloads.saxonica.com/SaxonC/EE/12/SaxonCEE-macos-x86_64-12-9-0.zip
+      sha256: cbe4144f99a133b05f938f29957c3c6e7af02bb8e63ee28cec1ccb8b3774ecec
+    linux-x86_64:
+      url: https://downloads.saxonica.com/SaxonC/EE/12/SaxonCEE-linux-x86_64-12-9-0.zip
+      sha256: 11918663179b8ba75f92091723faf55fce4b3df28c14189e6be1bd9936e051f1
+    windows-x86_64:
+      url: https://downloads.saxonica.com/SaxonC/EE/12/SaxonCEE-windows-x86_64-12-9-0.zip
+      sha256: 5144f12c21ea26493a483a50e9a4ef8d8854dd4101432d308fbc9a8b4468cd13
